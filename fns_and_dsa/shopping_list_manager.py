@@ -1,15 +1,14 @@
-def main():
-    shopping_list = []
-    
-    while True:
-        def display_menu():
+def display_menu():
              print("\033[4mShopping List Manager\033[0m")
              print("1. Add Item")
              print("2. Remove Item")
              print("3. View List")
-             print("4. Exit")  
-        display_menu()
+             print("4. Exit") 
 
+display_menu()
+def main():
+    shopping_list = [] 
+    while True:
         try:
             choice = int(input("Enter your choice: "))
         except ValueError:
