@@ -16,7 +16,7 @@ def calculate_future_date(number_of_days):
         print(f"The future date is {formatted_future_date}")
 
 while True:
-    days = int(input("Enter the number of days: "))
+    days = int(input("Enter the number of days to add to the current date: "))
     if days == -1:
         print("Exiting the program. Goodbye!")
         break
