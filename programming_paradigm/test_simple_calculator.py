@@ -14,10 +14,10 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_multiplication(self):
         self.assertEqual(self.calc.multiply(50, 5), 250)
         self.assertEqual(self.calc.multiply(75, 4), 300)
-    def test_division_valid(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(50, 2), 25)
         self.assertEqual(self.calc.divide(90, 5), 18)
-    def test_divide_by_zero(self):
+    def test_division_by_zero(self):
         self.assertEqual(self.calc.divide(28, 0), "Invalid")
 
 if __name__ == "__main__":
