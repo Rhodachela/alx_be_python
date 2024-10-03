@@ -11,7 +11,7 @@ def safe_divide(numerator, denominator):
     except ZeroDivisionError as e:
         return str(e)
     except ValueError:
-        print("Error: Invalid input. Enter a numerical integer")  
+        print("Error: Invalid input. Enter a valid integer")  
     
     
 
